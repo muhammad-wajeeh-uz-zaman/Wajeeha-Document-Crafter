@@ -4,6 +4,8 @@ A small Windows desktop app that drafts formal letters and applications with an 
 
 It is built for official correspondence in the style of Pakistani government letters, but the layout and prompts can be changed to suit other formats.
 
+<img width="1600" height="858" alt="image" src="https://github.com/user-attachments/assets/6b2e8368-8499-444a-8222-48459d377868" />
+
 ## Features
 
 - Enter the recipient, subject, date, sender details (name, post, section, organization).
@@ -19,8 +21,7 @@ It is built for official correspondence in the style of Pakistani government let
 
 ```
 WajeehaDocumentCrafter/
-├── python/
-│   └── document_crafter.py   # the application
+├── document_crafter.py   # the application
 ├── requirements.txt          # no runtime dependencies
 └── readme.md
 ```
@@ -33,7 +34,6 @@ WajeehaDocumentCrafter/
 ## Running from source
 
 ```
-cd python
 python document_crafter.py
 ```
 
@@ -49,7 +49,6 @@ python document_crafter.py
 
 ```
 pip install pyinstaller
-cd python
 pyinstaller --onefile --windowed --name WajeehaDocumentCrafter document_crafter.py
 ```
 
